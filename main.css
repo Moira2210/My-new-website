@@ -12,7 +12,7 @@ body {
 
 body::after {
         content: "";
-        background: url(images/Pub/pub\ winter-1600x850.jpg);
+        background: url(images/images/pub\ winter-1600x850.jpg);
         background-repeat:no-repeat;
         width:auto;
         opacity: 0.5;
@@ -26,21 +26,24 @@ body::after {
  }
 
  body.bar::after {
-  background-image: url(images/Bar/handpulls-1600x850.jpg);
+  background-image: url(images/images/handpulls-1600x850.jpg);
  }
  body.food::after {
-  background-image: url(images/Food/Steak\ pie2-1600x850.jpg);
+  background-image: url(images/images/Steakpie.jpg);
 }
 body.events::after {
-  background-image: url(images/Events/Halloween\ \(2\)-1600x850.jpg
+  background-image: url(images/images/Halloween-1600x800.jpg);
   );
 }
-body.contacts::after {
-  background-image: url(images/Bar/Real\ ale\ 2-1600x850.jpg);
+body.contact::after {
+  background-image: url(images/images/pub\ winter-1600x850.jpg);
 }
-body.contacts::after {
-  background-image: url(images/Pub/Garden\ view-1600x850.jpg);
- }
+body.gallery::after {
+  background-image: url(images/images/pub\winter-1600x850.jpg);
+   }
+   body.index::after {
+    background-image: url(images/images/pub\winter-1600x850.jpg);
+     }
 /* Style the links inside the navigation bar */
 
   .topnav a {
