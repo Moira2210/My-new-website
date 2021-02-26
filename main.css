@@ -1,0 +1,145 @@
+:root {
+  --color-base: #7030A0;
+  --color-80:#000000;
+  --color-contrast:white;
+}
+
+body {
+  font-family:corbel;
+  font-size:22pt;
+  /* background-color:var(--color-80); */
+}
+
+body::after {
+        content: "";
+        background: url(images/Pub/pub\ winter-1600x850.jpg);
+        background-repeat:no-repeat;
+        width:auto;
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;  
+        /* Add a black background color to the top navigation */
+ }
+
+ body.bar::after {
+  background-image: url(images/Bar/handpulls-1600x850.jpg);
+ }
+ body.food::after {
+  background-image: url(images/Food/Steak\ pie2-1600x850.jpg);
+}
+body.events::after {
+  background-image: url(images/Events/Halloween\ \(2\)-1600x850.jpg
+  );
+}
+body.contacts::after {
+  background-image: url(images/Bar/Real\ ale\ 2-1600x850.jpg);
+}
+body.contacts::after {
+  background-image: url(images/Pub/Garden\ view-1600x850.jpg);
+ }
+/* Style the links inside the navigation bar */
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 10px;
+   
+   }
+  
+  .navigation a {
+	font-size:16pt;
+	text-decoration:none;
+	color:var(--color-base);
+	border-color:var(--color-base);
+	border-style:solid;
+	border-width:3px;
+	border-radius:15px;
+	padding-left:10px;
+	padding-right:10px;
+  align-content: center;
+  }
+
+  .title-block {
+    margin: 0 auto;
+    /* font-family:Tahoma; */
+    text-align:center;
+    width:90%;
+    color:white;
+   /*  background:var(--color-base); */
+    padding-top:5px;
+    padding-bottom:5px;
+  }
+  .content {
+    margin: 0 auto;
+    width:90%;
+    line-height:40px;
+  	text-align:left;
+    padding: 2%;
+    font-weight: normal;
+    font-size: 18pt; 
+  }
+
+  .box {
+    margin:0px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    background-color:var(--color-base);
+  }
+  .navigation {
+    padding-top:15px;
+  }
+  /*  below is my flex box; */
+  
+  .container {
+    height: 90vh;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px 10px; 
+    
+    }
+  }
+  .cell {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+  }
+  .cell-1 {
+    background: deepskyblue;
+         grid-row: 2; 
+      grid-column: 3; 
+
+  }
+  .cell-2 {
+    background: orangered;
+  }
+  .cell-3 {
+    background: royalblue;
+  }
+  .cell-4 {
+    background: gold;
+  }
+  .cell-5 {
+    background: blueviolet;
+  }
+  .cell-6 {
+    background: limegreen;
+  }
+  .cell-7 {
+    background: coral;
+  }
+  .cell-8 {
+    background: lightseagreen;
+  }
+  .cell-9 {
+    background: maroon;
+  }
